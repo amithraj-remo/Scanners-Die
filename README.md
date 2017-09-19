@@ -1,9 +1,10 @@
 # Scarnes-Die
 
-For this workshop, you will be creating an Android app for a simple anagram game.
+In this workshop, we will create a game from scratch in Android Studio. The game that we will be creating is a dice game called Scarne's dice.
 
-The mechanics of the game are as follows:
+Scarne’s Dice is a turn-based dice game where players score points by rolling a die and then:
 
-    The game provides the user with a word from the dictionary.
-    The user tries to create as many words as possible that contain all the letters of the given word plus one additional letter. Note that adding the extra letter at the beginning or the end without reordering the other letters is not valid. For example, if the game picks the word 'ore' as a starter, the user might guess 'rose' or 'zero' but not 'sore'.
-The user can give up and see the words that they did not guess.
+if they roll a 1: score no points and lose their turn
+if they roll a 2 to 6:  add the rolled value to their points & choose to either reroll or keep their score and end their turn
+
+The winner is the first player that reaches (or exceeds) 100 points.
